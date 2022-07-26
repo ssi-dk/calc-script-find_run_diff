@@ -1,0 +1,8 @@
+.env
+.venv
+.vscode
+/output/*
+!/output/.gitkeep
+/input/*
+!/input/example
+notebooks/.ipynb_checkpoints
