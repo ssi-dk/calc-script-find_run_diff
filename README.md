@@ -1,6 +1,6 @@
-# SSI_Illumina_QC notebooks
+# calc-script-find_run_diff
 
-A jupyter notebook wrapper related to processing illumina samples.
+A jupyter notebook wrapper related to finding new runs with different patterns in two folders.
 
 ## Requirements
 - conda
