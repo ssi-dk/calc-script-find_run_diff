@@ -6,3 +6,10 @@
 /input/*
 !/input/example
 notebooks/.ipynb_checkpoints
+*.env
+*.service
+*.timer
+!find_run_diff.template.timer
+!find_run_diff.template.service
+!find_run_diff.default.env
+!conda.env.yml

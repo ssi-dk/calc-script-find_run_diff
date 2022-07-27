@@ -1,0 +1,12 @@
+[Unit]
+Description=Find_run_diff
+
+[Service]
+Type=simple
+StandardOutput=journal
+# Paths requires a full path and not a relative path
+EnvironmentFile=FULL_PATH_TO_ENV_FILE
+ExecStart=FULL_PATH_EXEC_START
+
+[Install]
+WantedBy=default.target
